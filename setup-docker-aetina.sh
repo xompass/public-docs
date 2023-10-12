@@ -22,3 +22,5 @@ sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
+
+echo "Relog to refresh permissions..."
